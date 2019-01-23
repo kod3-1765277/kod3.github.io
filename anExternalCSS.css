@@ -1,0 +1,68 @@
+* {
+  color: white;
+}
+
+body {
+  background-image: url("stars.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer {
+  position: fixed;
+  background-color: black;
+  color: white;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+section {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 1%;
+  border-radius: 15px;
+  padding: 15px;
+  border-style: dotted;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#pepe {
+  height: 50px;
+  width: 50px;
+}
+
+#head, #chloe, footer, section {
+  text-align: center;
+}
+
+#para1 {
+  font-family: "Comic Sans MS";
+}
+
+#para2 {
+  font-family: "Lucida Console";
+}
+
+#chloe {
+  margin: 20px;
+  position: relative;
+}
+
+#overlap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+}
+
+#floater {
+  max-height: 20%;
+  max-width: 20%;
+  float: left;
+}
